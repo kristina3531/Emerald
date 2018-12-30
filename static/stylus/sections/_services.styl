@@ -1,0 +1,73 @@
+.services
+  background-position center
+  background-size cover
+  background-repeat no-repeat
+
+  &::before
+    content ''
+    position absolute
+    left 0
+    top -1px
+    width 100%
+    height 21px
+    background url('../img/general/wave-top-white.png') repeat-x 0 0
+
+  &-list
+    display flex
+    flex-wrap wrap
+    justify-content center
+    color #fff
+    
+
+    &__item
+      margin 0 15px 40px
+      padding-left 180px
+      flex-basis auto
+      width 35%
+      min-height 165px
+      position relative
+
+      &--center
+        width 30%
+
+      &::before
+        content ''
+        position absolute
+        left 0
+        top 0
+        width 165px
+        height 165px
+        background-repeat no-repeat
+        background-position center
+        background-size 100%
+      
+      &--organization
+        &::before
+          background-image url('../img/content/services/organization.png')
+      &--leader
+        &::before
+          background-image url('../img/content/services/leader.png')
+      &--photographer
+        &::before
+          background-image url('../img/content/services/photographer.png')
+      &--decor
+        &::before
+          background-image url('../img/content/services/decor.png')
+      &--banquet
+        &::before
+          background-image url('../img/content/services/banquet.png')
+      &--registration
+        &::before
+          background-image url('../img/content/services/registration.png')
+      &--artists
+        &::before
+          background-image url('../img/content/services/artists.png')
+      
+
+    &__title
+      margin-bottom 10px
+      font-size 24px
+      font-weight 700
+    
+    &__text
+      line-height 1.2

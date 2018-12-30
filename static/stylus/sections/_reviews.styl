@@ -1,0 +1,70 @@
+.reviews
+  background-repeat no-repeat
+
+  &::before
+    content ''
+    position absolute
+    left 0
+    top -20px
+    right 0
+    height 20px
+    background url('../img/general/wave-top-reviews.png') repeat-x 0 0
+  
+  &-slider
+    &__cards
+      // max-width 980px
+      // margin 0 auto
+  &-slider
+    position relative
+    padding 0 50px
+    .slick-dots
+      z-index 10
+      li
+        button
+          width 20px
+          height 20px
+          border-radius 50%
+          border 2px solid #fff
+          &::before
+            display none
+        &.slick-active
+          button
+            background-color #fff
+
+  &-card
+    margin-bottom 30px
+    padding 30px 20px 40px
+    max-width 460px
+    height: 300px
+    width 100%
+    display flex
+    color main-color
+    background #fff url('../img/general/reviews-card-bg.png') no-repeat right bottom
+    border-radius 15px
+  &-author
+    flex 1 auto
+    margin-right 15px
+    span
+      display block
+      text-align center
+    &__name
+      font-size 24px
+      font-weight 700
+      line-height 1.2
+  &-date
+    font-size 20px
+    line-height 1.3
+  &-photo
+    margin-bottom 20px
+    width 140px
+    height 140px
+    border-radius 50%
+    background-repeat no-repeat
+    background-position 0 0
+  &-text
+    flex 2 auto
+    font-size 15px
+    font-style italic
+    line-height 1.3
+    p + p
+      margin-top 25px

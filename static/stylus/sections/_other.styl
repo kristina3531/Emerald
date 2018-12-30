@@ -1,0 +1,80 @@
+.other
+  padding 50px 0 40px
+  text-align center
+
+  &::before
+    content ''
+    position absolute
+    left 0
+    top -37px
+    right 0
+    height 20px
+    background url('../img/general/wave-bottom-white.png') repeat-x 0 0
+    z-index 5
+
+  &::after
+    content ''
+    position absolute
+    z-index 5
+    left 0
+    bottom -23px
+    right 0
+    height 24px
+    background url('../img/general/wave-top-white.png') repeat-x 0 0
+  
+  .section-title
+    margin-bottom 15px
+  
+  &-subtitle
+    margin-bottom 30px
+    color main-color-text
+    font-size 28px
+
+  &-projects
+    margin 0 auto 55px
+    display flex
+    flex-wrap wrap
+    justify-content space-between
+    color main-color
+    max-width 760px
+  &-project
+    width 33%
+    &__img
+      margin 0 auto 15px
+      width 165px
+      height 165px
+      border-radius 50%
+    &__title
+      font-family title-font
+      font-size 28px
+  &-offer
+    width 60%
+    margin 0 auto
+    color main-color
+    &__text
+      font-size 26px
+      line-height 1.2
+    &__link
+      color main-color
+      font-weight 700
+      position relative
+      display inline-block
+      &::after
+        content ''
+        position absolute
+        left 0
+        bottom 10px
+        width 100%
+        height 2px
+        transition all .3s
+      &:hover
+        &::after
+          transform translateY(15px)
+          background-color main-color
+
+  &-btn
+    margin-top 50px
+    display inline-block
+    svg
+      width 32px
+      height 52px

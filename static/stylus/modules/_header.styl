@@ -1,0 +1,60 @@
+.header
+  height 70px
+  background main-color url('../img/general/header-bg.jpg') no-repeat center/cover
+  color #fff
+
+  .container
+    padding 15px 0
+    height 70px
+    display flex
+    flex-wrap wrap
+    justify-content space-between
+    align-items center
+
+  &-nav
+    cursor pointer
+    display flex
+    align-items center
+    position relative
+
+    &__title
+      color #fff
+      font-size 18px
+
+  &-company
+
+    span
+      font-size 16px
+
+    &__name
+      margin-bottom 5px
+      text-transform uppercase
+      font-weight 700
+      font-size 16px
+
+  &-logo 
+    position relative
+    top 35px
+    z-index 1
+    // left 50%
+    // transform translateX(-50%)
+  
+  &-phone
+    display flex
+    align-items center
+    
+    &__icon
+      width 24px
+      height 24px
+      fill: #fff
+
+    &__links
+      margin-left 10px
+    a
+      display block
+      color #fff
+      font-size 20px
+      font-weight 700
+
+      &:first-child
+        margin-bottom 5px

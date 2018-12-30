@@ -1,0 +1,20 @@
+header.header
+  .container
+    .header-nav
+      .sandwich
+        include ../../static/img/svg/sandwich.svg
+      span.header-nav__title Меню
+      include menu
+    .header-company
+      h1.header-company__name Группа компаний Emerald
+      span.header-company__descr Организация свадебных торжеств
+    .header-logo
+      a.header-logo__link(href="index.html")
+        img.header-logo__img(src="static/img/general/logo.png", srcset="static/img/general/logo2x.png 2x" alt="Группа компаний Emerald")
+    .header-phone
+      svg.header-phone__icon
+        use(xlink:href="static/img/svg/icons.svg#phone")
+      .header-phone__links
+        a(href="tel:+380444508355") +38 (044) 450-83-55
+        a(href="tel:+380960566033") +38 (096) 056-60-33
+    a.header-btn.popup-link.global-btn.global-btn--small(href="#feedback") Заказать звонок

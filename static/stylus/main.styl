@@ -1,0 +1,139 @@
+// Подключаем стили библиотек
+@import '_libs.styl'
+
+// Подключаем переменные
+@import '_vars.styl'
+
+// Подключаем спрайты (просто раскоментируем импорт при появлении PNG спрайтов)
+// @import '_sprite.styl'
+
+// Подключаем миксины
+@import '_mixins.styl'
+
+// Стили главного баннера
+@import 'sections/_banner.styl'
+
+// Стили секции about
+@import 'sections/_about.styl'
+
+// Стили секции services
+@import 'sections/_services.styl'
+  
+// Стили секции portfolio
+@import 'sections/_portfolio.styl'
+
+// Стили секции pricing
+@import 'sections/_pricing.styl'
+
+// Стили секции pricing
+@import 'sections/_team.styl'
+
+// Стили секции partner
+@import 'sections/_partner.styl'
+
+// Стили секции partner
+@import 'sections/_reviews.styl'
+
+// Стили секции other
+@import 'sections/_other.styl'
+
+// Стили секции Секреты идеальной свадьбы
+@import 'sections/_secrets.styl'
+
+html 
+  line-height 1
+  font-size 18px
+
+body
+  font-family main-font
+
+h1,h2,h3,h4,h5,h6
+  margin 0
+
+ul,li
+  margin 0
+  padding 0
+  list-style-type none
+  
+p
+  margin 0
+  
+a
+  text-decoration none
+  color black
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video
+  vertical-align middle
+  
+textarea
+  resize none
+
+section
+  position relative
+  padding 70px 0
+
+input,
+select,
+button
+  outline none
+
+*, *:before, *:after
+  box-sizing border-box
+  
+.hide
+  display none
+  
+.show
+  display block
+  
+::-moz-selection 
+  background: #b3d4fc;
+  text-shadow: none;
+  
+::selection 
+  background: #b3d4fc;
+  text-shadow: none;
+  
+.clearfix:before,
+.clearfix:after 
+  content: " ";
+  display: table;
+
+.clearfix:after 
+  clear: both;
+
+.clearfix 
+  *zoom: 1;
+
+.container
+  padding 0 15px
+  max-width 1200px
+  margin 0 auto
+
+
+
+// Общие стили
+@import '_common_styles.styl'
+
+// Стили шапки
+@import 'modules/_header.styl'
+
+// Стили меню
+@import 'modules/_menu.styl'
+
+// Стили popup
+@import 'modules/_popup.styl'
+
+// Стили главной страницы
+@import 'page/_index.styl'
+
+// Стили футера
+@import 'modules/_footer.styl'
+
+// Стили медиазапросов
+@import '_media.styl'

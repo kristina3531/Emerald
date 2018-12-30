@@ -1,0 +1,50 @@
+section.pricing#pricing(style="background-image: url('static/img/content/pricing-bg.jpg')")
+  .container
+    h2.section-title.section-title--white Стоимость
+    
+    .pricing-table
+
+      .slider-controls.slider-prev--pricing
+        svg.arrow__icon
+          use(xlink:href="static/img/svg/icons.svg#left-arrow")
+      .slider-controls.slider-next--pricing
+        svg.arrow__icon
+          use(xlink:href="static/img/svg/icons.svg#right-arrow")
+
+      .js-pricing-table
+        .pricing-table__item(style="background-image: url('static/img/content/pricing/pricing-bg1.png')")
+          h5.pricing-table__title Свадебный <br> распорядитель 
+          p.pricing-table__descr Ваш личный помощник, который решает все организационно-технический вопросы в день Вашего торжества:
+          ul.pricing-table__list
+            li.pricing-table__list-item – Встречает и провожает гостей
+            li.pricing-table__list-item – Общается с банкетной службой ресторана
+            li.pricing-table__list-item – Следит за работой свадебного персонала 
+              i (фото, видео, артисты, ведущий, декоратор)
+            li.pricing-table__list-item – Отвечает на все волнующие вопросы
+          .pricing-table__price 7 000 &#8372;
+
+        .pricing-table__item(style="background-image: url('static/img/content/pricing/pricing-bg2.png')")
+          h5.pricing-table__title Организация <br> свадьбы
+          p.pricing-table__descr Полное сопровождение «предсвадебного путешествия» для того, чтобы подготовка доставила удовольствие:
+          ul.pricing-table__list
+            li.pricing-table__list-item – Уделим внимание всем деталям, поможем оптимизировать бюджет, порекомендуем надежных свадебных специалистов, наполним торжество Вашей душой. 
+            li.pricing-table__list-item –В день свадьбы на площадке работают: 
+              i свадебный распорядитель + координатор. 
+            li.pricing-table__list-item Вы отдыхаете!
+          .pricing-table__price 10 000 &#8372;
+
+        .pricing-table__item(style="background-image: url('static/img/content/pricing/pricing-bg3.png')")
+          h5.pricing-table__title PREMIUM <br> Организация свадьбы
+          p.pricing-table__descr Это предложение идеально подходит для свадебных торжеств, если приглашённых гостей будет 100 и более человек. 
+          ul.pricing-table__list 
+            li.pricing-table__list-item – Если в расписании свадебного дня запланирована насыщенная программа с развлечениями и артистами.
+            li.pricing-table__list-item – С утра ВАС будет сопровождать координатор, который возьмет на себя хлопоты первой половины дня. 
+            li.pricing-table__list-item – В день свадьбы на площадке работают: 
+              i свадебный распорядитель + 2 координатора.
+          .pricing-table__price 15 000 &#8372;
+
+    .pricing-order
+      .pricing-order__text Подробная консультация по телефону: 
+        a.pricing-order__link(href="tel:+380444508355") +38 (044) 450-83-55 
+        | или оставьте заявку:
+      a.popup-link.global-btn(href="#feedback") Оставить заявку

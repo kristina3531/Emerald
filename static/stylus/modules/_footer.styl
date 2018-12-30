@@ -1,0 +1,88 @@
+.footer
+  background-color black-color
+  padding 20px 0 40px
+  .container
+    max-width 990px
+    display flex
+    flex-wrap wrap
+    justify-content space-between
+    align-items center
+
+  &-company
+    color gray-color2
+    font-size 16px
+    &__name
+      text-transform uppercase
+      font-weight 700
+  
+  &-phone
+    &__link
+      margin-bottom 5px
+    &__icon
+      width 18px
+      height 18px
+      fill #fff
+      margin-right 10px
+    a
+      color #fff
+  
+  &-social
+    &__item
+      display inline-block
+      margin 0 3px
+    &__link
+      display block
+      text-align center
+      line-height 46px
+      width 52px
+      height 52px
+      border-radius 50%
+      background-color main-color
+      transition all .3s
+      svg
+        fill #fff
+        transition all .3s
+      &:hover
+        background-color #fff
+        svg
+          fill main-color
+    &__vk
+      width 35px
+      height 26px
+    &__instagram
+      width 30px
+      height 30px
+    &__facebook
+      width 22px
+      height 40px
+    &__viber
+      width 32px
+      height 32px
+    &__youtube
+      width 30px
+      height 25px
+  
+  &-copywright
+    margin-top 40px
+    width 100%
+    text-align center
+    color gray-color
+    a
+      display inline-block
+      color #fff
+      position relative
+      color gray-color
+      &::after
+        content ''
+        position absolute
+        left 0
+        bottom -10px
+        width 100%
+        height 2px
+        background-color gray-color
+        transition all .3s
+      &:hover
+        &::after
+          transform translateY(-15px)
+          background-color transparent
+    

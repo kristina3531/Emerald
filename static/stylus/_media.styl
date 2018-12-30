@@ -1,0 +1,483 @@
+@media screen and (max-width: 1200px)
+  .services
+    &-list
+      &__item
+        width 45%
+        &--center
+          width 45%
+  
+  .pricing
+    &-table
+      max-width 880px
+      margin 0 auto 30px
+      padding 0 50px
+      &__item
+        margin 0 15px
+
+@media screen and (max-width: 1019px)
+  .portfolio
+    &-item
+      width 28%
+      height 220px
+      &--width2
+        width 38%
+      &--height2
+        height 440px
+      
+
+@media screen and (max-width: 1000px)
+  .header
+    &-company
+      display none
+    &-nav
+      order 1
+    &-logo
+      order 4
+    &-phone
+      order 2
+    &-btn
+      order 3
+
+  .services
+    &-list
+      &__item
+        padding-left 135px
+        &::before
+          width 120px
+          height 120px
+  .pricing
+    &-table
+      &__title
+        font-size 20px
+
+  .team
+    &-content
+      background none
+    &-person
+      width 25%
+      &:nth-child(even)
+        padding-top 0
+
+  .partner
+    &-photo
+      margin 0 5px 10px
+    &-advantages
+      justify-content flex-start
+      width 100%
+      margin-top 20px
+      &__step
+        width 50%
+        margin 0 0 20px
+        &:nth-child(3)
+          width 50%
+        &--width
+          width 50%
+
+  .reviews-card
+    margin 0 auto 30px
+
+@media screen and (max-width: 975px)
+  .portfolio
+    &-item
+      width 27%
+      height 210px
+      &--width2
+        width 37%
+      &--height2
+        height 420px
+
+@media screen and (max-width: 951px)
+  .portfolio
+    &-item
+      width 26%
+      height 200px
+      &--width2
+        width 36%
+      &--height2
+        height 410px
+  
+  .footer
+    &-social
+      width 100%
+      margin-top 15px
+      text-align center
+    &-copywright
+      margin-top 30px
+
+@media screen and (max-width: 900px)
+  .about-content__video, .about-content__descr
+    width 100%
+  .about-content__descr
+    order 1
+    margin-bottom 40px
+  .about-content__video
+    order 2
+  .portfolio
+    max-height 100%
+    &-item
+      width 48%
+      height 230px
+      &--width2
+        width 48%
+      &--height2
+        height 460px
+  
+  .other
+    &-projects
+      justify-content center
+    &-project
+      width 35%
+  
+  .partner
+    &-advantages
+      &__step
+        width 100% !important
+        align-items center
+  
+  .secrets
+    .section-title
+      margin-bottom 50px
+    &-text
+      &__title
+        font-weight 600
+    &-item
+      font-weight 500
+      font-size 24px
+  
+@media screen and (max-width: 799px)
+  .pricing
+    &-table
+      max-width 475px
+  .team-person
+    width 45%
+
+  .secrets
+    &-content
+      display block
+    &-text
+      text-align center
+      max-width 100%
+      margin-bottom 30px
+    #form--secrets
+      margin 0 auto
+
+@media screen and (max-width: 750px)
+  .header
+    height 110px
+    &-nav__title
+      display none
+    &-logo
+      order 2
+      position absolute
+      left 50%
+      margin-left -70px
+      top 0
+    &-phone
+      order 4
+    &-btn
+      position absolute
+      right 10px
+      top 70px
+      z-index 5
+  .team-founder
+    max-width auto
+    &__info
+      margin-left 20px
+    &__name
+      margin-bottom 10px
+    &__job
+      line-height 1.1
+      margin-bottom 5px
+      &:last-of-type
+        margin-bottom 10px
+
+    .team-person__photo--founder
+      width 200px
+      height 200px
+
+  .services
+    &-list
+      &__item
+        width 100%
+        padding-left 180px
+        display flex
+        flex-direction column
+        justify-content center
+        &::before
+          width 165px
+          height 165px
+        &--center
+          width 100%
+  .pricing-order
+    &__text
+      line-height 1.3
+    &__link
+      display block
+      &::after
+        display none
+
+  .banner
+    padding 40px 15px
+    min-height 300px
+    &-text
+      left 50%
+      top 50%
+      transform translate(-50%, -50%)
+      font-size 26px
+@media screen and (max-width: 700px)
+  .footer
+    &-logo, &-phone
+      width 50%
+    &-phone
+      text-align right
+    &-company
+      display none
+
+@media screen and (max-width: 669px)
+  .partner-photo
+    width 70%
+    background-repeat no-repeat
+    background-size cover
+    background-position center
+  
+  .reviews
+    background-size cover
+    &-card
+      height auto
+    
+  .other::before
+    top -19px
+
+@media screen and (max-width: 600px)
+  .header
+    height 130px
+    &-company
+      display block
+    &-logo
+      display none
+    &-nav
+      position absolute
+      left 10px
+      top 70px
+    &-phone
+      a
+        font-size 16px
+  
+  .other
+    &-projects
+      justify-content space-around
+    &-project
+      width 40%
+    &-offer
+      width 80%
+
+  .team-founder
+    display block
+    &__info
+      margin-left 0
+      margin-top 20px
+      text-align center
+
+  .reviews
+    &-card
+      display block
+    &-author
+      margin 0
+    &-photo
+      margin 0 auto 10px
+
+@media screen and (max-width: 500px)
+  .header
+    height auto
+    .container
+      flex-direction column
+      justify-content center
+      height auto
+    &-company
+      margin-bottom 15px
+      display block
+      width 100%
+      text-align center
+      order 1
+    &-phone
+      display flex
+      margin-bottom 15px
+      order 2
+      &__icon
+        display inline-block
+    &-btn
+      position static
+      order 3
+    &-nav
+      top 100px
+  form, .form-success
+    padding 15px
+  .form
+    &-title
+      font-size 20px
+    
+    .global-btn
+      padding 0 20px
+      font-size 18px
+  .banner
+    .container
+      height 250px
+    &-text
+      font-size 18px
+      padding 0 15px
+  
+  .services
+    &-list
+      &__item
+        min-height 80px
+        padding-left 100px
+        &::before
+          width 80px
+          height 80px
+      &__title
+        font-size 18px
+        margin-bottom 5px
+      &__text
+        font-size 16px
+        line-height 1.1
+
+  .portfolio
+    &-item
+      width 100%
+      height 260px
+      background-position top center
+      &--width2
+        width 100%
+      &--height2
+        height 490px
+    .instagram
+      svg
+        width 20px
+        height 20px
+      &-text
+        font-size 20px
+        line-height 1.3
+      &-hash-tag
+        font-size 18px
+        line-height 1.3
+  .pricing-order
+    &__text
+      font-size 24px
+  
+  .team-person
+    width 100%
+  
+  .partner-photo
+    width 100%
+
+  .reviews-slider
+    padding 0 30px
+  .reviews-card:last-child
+    display none
+
+  .other
+    &-project
+      width 50%
+    &-offer
+      width 90%
+        
+@media screen and (max-width: 480px)
+  .section-title
+    font-size 30px
+  .pricing
+    &-table
+      padding 0 30px
+      max-width 420px
+      &__item
+        margin 0
+        padding 10px 10px 80px
+        height auto
+      &__title
+        font-size 16px
+      &__list
+        &-item
+          margin-bottom 10px
+      &__descr
+        margin-bottom 10px
+        line-height 1.1
+      &__price
+        bottom 20px
+        width 230px
+        margin-left -115px
+        height 50px
+        line-height 50px
+        font-size 36px
+  
+  .partner-advantages__step
+    align-items flex-start
+  
+  .other
+    &-subtitle
+      font-size 24px
+    &-projects
+      justify-content space-around
+      margin-bottom 40px
+    &-project
+      width 100%
+      margin-bottom 40px
+      &__title
+        font-size 24px
+      &:last-child
+        margin-bottom 0
+    &-offer
+      width 100%
+      &__text
+        font-size 22px
+        line-height 1.1
+
+@media screen and (max-width: 385px)
+  .pricing
+    padding-top 40px
+    &-table
+      padding 0 15px
+      &__descr
+        font-size 16px
+      &__list-item
+        font-size 16px
+    &-order
+      &__text
+        font-size 20px
+  .secrets
+    .section-title
+      margin-bottom 30px
+      font-weight 400
+    &-item
+      font-size 20px
+    &-text
+      &__title
+        font-size 24px
+        margin-bottom 15px
+  .footer
+    &-logo
+      width 30%
+    &-phone
+      width 70%
+      &__link
+        a
+          font-size 16px
+    &-social
+      &__link
+        width 40px
+        height 40px
+        line-height 38px
+      &__vk
+        width 31px
+        height 20px
+      &__instagram
+        width 23px
+        height 23px
+      &__facebook
+        width 20px
+        height 38px
+      &__viber
+        width 25px
+        height 25px
+      &__youtube
+        width 27px
+        height 22px
+        
